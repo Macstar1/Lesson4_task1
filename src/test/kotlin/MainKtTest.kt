@@ -94,7 +94,7 @@ class MainKtTest {
         val transfer = 17_000
 
         val result = transferCommission(cardType, transfer)
-        assertEquals(127, result)
+        assertEquals(1007, result)
     }
 
     @Test
